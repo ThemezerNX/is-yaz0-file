@@ -13,10 +13,10 @@ $ npm install is-yaz0-file --save
 ### Usage
 
 ```javascript
-var yaz0_FILE = require('is-yaz0-file');
+var YAZ0_FILE = require('is-yaz0-file');
 
 // If a valid yaz0 file is provided and exists at path specified
-yaz0_FILE.isyaz0('temp.sarc', function (err, is) {
+YAZ0_FILE.isYaz0('temp.sarc', function (err, is) {
 	if (err) {
 		console.log('Error while checking if file is yaz0 : ' + err);
 	} else {
@@ -26,7 +26,7 @@ yaz0_FILE.isyaz0('temp.sarc', function (err, is) {
 //=> Given file is yaz0 : true
 
 // If a valid yaz0 file is provided and exists at path specified
-yaz0_FILE.isyaz0Sync('temp.sarc');
+YAZ0_FILE.isYaz0Sync('temp.sarc');
 //=> true
 ```
 
@@ -58,10 +58,10 @@ Callback has two parameters:
 **Example**
 
 ```javascript
-var yaz0_FILE = require('is-yaz0-file');
+var YAZ0_FILE = require('is-yaz0-file');
 
 // If a valid yaz0 file is provided and exists at path specified
-yaz0_FILE.isyaz0('temp.sarc', function (err, is) {
+YAZ0_FILE.isYaz0('temp.sarc', function (err, is) {
 	if (err) {
 		console.log('Error while checking if file is yaz0 : ' + err);
 	} else {
@@ -88,10 +88,10 @@ Boolean indicating if file at specified path is yaz0 or not
 **Example**
 
 ```javascript
-var yaz0_FILE = require('is-yaz0-file');
+var YAZ0_FILE = require('is-yaz0-file');
 
 // If a valid yaz0 file is provided and exists at path specified
-yaz0_FILE.isyaz0Sync('temp.sarc');
+YAZ0_FILE.isYaz0Sync('temp.sarc');
 //=> true
 ```
 

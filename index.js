@@ -1,7 +1,7 @@
 var FS = require('fs'),
     NODE_RATIFY = require('node-ratify');
 
-function isZip (path, cb) {
+function isYaz0 (path, cb) {
     if (!NODE_RATIFY.isFunction(cb)) {
         throw new TypeError('callback not provided');
     } else if (!NODE_RATIFY.isString(path)) {
@@ -30,7 +30,7 @@ function isZip (path, cb) {
     }
 };
 
-function isZipSync (path) {
+function isYaz0Sync (path) {
     var ret = false;
     if (!NODE_RATIFY.isString(path)) {
         throw new TypeError('provided path is not correct');
@@ -54,6 +54,6 @@ function isZipSync (path) {
 };
 
 exports = module.exports = {
-    isZip: isZip,
-    isZipSync: isZipSync
+    isYaz0: isYaz0,
+    isYaz0Sync: isYaz0Sync
 };
