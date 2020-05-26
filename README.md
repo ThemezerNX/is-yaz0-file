@@ -33,7 +33,7 @@ yaz0_FILE.isyaz0Sync('temp.sarc');
 ### Clone the repo
 
 ```bash
-$ git clone https://github.com/luthraG/is-yaz0-file.git
+$ git clone https://github.com/Migushthe2nd/is-yaz0-file.git
 ```
 
 ### API
