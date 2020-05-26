@@ -95,16 +95,9 @@ yaz0_FILE.isyaz0Sync('temp.sarc');
 //=> true
 ```
 
-### Related projects
-
-You might also be interested in these projects:
-
--   [is-pdf-file](https://www.npmjs.com/package/is-pdf-file): Checks if the file path is PDF file. It does not read the complete file nor it depends upon file extension. | [homepage](https://github.com/luthraG/is-pdf-file.git)
--   [is-psd-file](https://www.npmjs.com/package/is-psd-file): Checks if the file path is PSD file. It does not read the complete file nor it depends upon file extension. | [homepage](https://github.com/luthraG/is-psd-file.git)
-
 ### Author
 
-**Gaurav Luthra**
+**Migush**
 
 -   [github/Migushthe2nd](https://github.com/Migushthe2nd)
 
