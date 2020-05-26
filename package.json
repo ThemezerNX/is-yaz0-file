@@ -1,0 +1,31 @@
+{
+  "name": "is-yaz0-file",
+  "version": "1.0.2",
+  "description": "Checks if the file path is yaz0 file. It does not read the complete file nor does it depend on the file extension",
+  "license": "MIT",
+  "repository": "https://github.com/Migushthe2nd/is-yaz0-file.git",
+  "author": {
+    "name": "Migush"
+  },
+  "dependencies": {
+    "node-ratify": "~1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "buffer",
+    "check",
+    "detect",
+    "detect yaz0",
+    "file type",
+    "is-yaz0-file",
+    "is yaz0",
+    "uint8array",
+    "yaz0",
+    "yaz0 file"
+  ]
+}
